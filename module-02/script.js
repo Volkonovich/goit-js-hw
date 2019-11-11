@@ -41,7 +41,7 @@
 // let message = prompt("vvedite stroky");
 
 // function forCalculator(a) {
-//   if (a.length > 40) {
+//   if (a.length >= 40) {
 //     console.log(`${a.slice(0, 40)}...`);
 //   } else {
 //     console.log(a);
@@ -68,21 +68,20 @@
 
 // -------6--------
 
-// let input = 0;
-// const arr = [];
-// let total = 0;
+let input = 0;
+const arr = [];
+let total = 0;
 
-// do {
-//   input = prompt();
-//   if (!isNaN(input)) {
-//     arr.push(Number(input));
-//   }
-// } while (input !== null);
+do {
+  input = prompt();
+  if (!isNaN(input)) {
+    arr.push(Number(input));
+  }
+} while (input !== null);
 
-// for (let elem of arr) {
-//   console.log(elem);
-//   total += elem;
-// }
+for (let elem of arr) {
+  console.log(elem);
+  total += elem;
+}
 
-// console.log(total);
-
+console.log(total);
