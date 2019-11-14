@@ -14,10 +14,10 @@
 // user.hobby = "javascript";
 // user.premium = false;
 
-// let arr = Object.keys(user);
+// let keys = Object.keys(user);
 // console.log(arr);
-// for (let person of arr) {
-//   console.log("Value:", user[person]);
+// for (let key of keys) {
+//   console.log("Value:", user[key]);
 // }
 
 // ____________2__________________
