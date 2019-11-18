@@ -1,0 +1,17 @@
+#gallery {
+    display: flex;
+}
+
+
+
+.validation-input {
+    border: 3px solid #bdbdbd;
+}
+
+.valid {
+    border: 3px solid #4caf50;
+}
+
+.invalid {
+    border: 3px solid #f44336;
+}

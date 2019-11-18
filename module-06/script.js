@@ -81,13 +81,11 @@ import users from "./Task.js";
 
 // _______10___________
 
-// const getSortedUniqueSkills = users =>
-// users.reduce((acc, user) => {
-//   acc.push(...user.skills);
-//   return [...new Set(acc)];
-// }, []);
+const getSortedUniqueSkills = users =>
+  users.reduce((acc, user) => {
+    acc.push(...user.skills);
+    return [...new Set(acc)];
+  }, []);
 
-// ;
-
-// console.log(getSortedUniqueSkills(users));
-// // [ 'adipisicing', 'amet', 'anim', 'commodo', 'culpa', 'elit', 'ex', 'ipsum', 'irure', 'laborum', 'lorem', 'mollit', 'non', 'nostrud', 'nulla', 'proident', 'tempor', 'velit', 'veniam' ]
+console.log(getSortedUniqueSkills(users));
+// [ 'adipisicing', 'amet', 'anim', 'commodo', 'culpa', 'elit', 'ex', 'ipsum', 'irure', 'laborum', 'lorem', 'mollit', 'non', 'nostrud', 'nulla', 'proident', 'tempor', 'velit', 'veniam' ]
