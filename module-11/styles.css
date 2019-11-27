@@ -1,0 +1,28 @@
+.timer {
+  display: flex;
+  justify-content: space-around;
+  border: 15px solid coral;
+  border-radius: 30px;
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: silver;
+  box-shadow: 0 0 50px rgb(38, 179, 38);
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+.value {
+  font-size: 70px;
+  font-weight: 900;
+  color: red;
+}
+
+.label {
+  color: green;
+  font-size: 25px;
+  font-weight: 800;
+}
