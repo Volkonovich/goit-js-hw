@@ -1,0 +1,101 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  width: 1200px;
+  margin: 0 auto;
+  background-image: url(https://cdn.pixabay.com/photo/2012/04/13/01/23/santa-31665_1280.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+img {
+  display: block;
+  height: 280px;
+  object-fit: cover;
+}
+
+.photo-card {
+  position: relative;
+  margin: 0 30px 30px;
+  padding: 5px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+input {
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 15px 100px;
+  margin-bottom: 30px;
+  border: 5px solid #0c9463;
+  border-radius: 20px;
+  font-size: 20px;
+  background-color: #beebe9;
+  outline-color: transparent;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 15px;
+  border: 5px solid #0c9463;
+  border-radius: 20px;
+  text-align: center;
+  background-color: #beebe9;
+  outline-color: transparent;
+}
+
+.stats {
+  display: none;
+  position: absolute;
+  top: 0;
+}
+
+.photo-card:hover .stats {
+  display: block;
+}
+
+.stats-item {
+  color: #0c9463;
+  background-color: rgba(50, 50, 50, 0.831);
+  width: 50px;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+img:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+input:hover {
+  padding: 15px 200px;
+  cursor: pointer;
+}
+
+button:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  cursor: pointer;
+}
